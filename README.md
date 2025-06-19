@@ -1,6 +1,3 @@
-# game2d-kelompok-suko-aryuda-fatikha-luluk
-game2d-kelompok-suko-aryuda-fatikha-luluk created by GitHub Classroom
-
 # Select Item Game 🎮
 
 ## 📖 Introduction  
@@ -66,7 +63,7 @@ Proyek ini dikerjakan oleh tim yang terdiri dari:
 ## 📦 Installation  
 1. Clone repository ini:  
    ```bash
-   git clone https://github.com/username/select-item-game.git
+   git clone https://github.com/room2468/game2d-kelompok-suko-aryuda-fatikha-luluk.git
 
 2. Masuk ke direktori project:
    ```bash
@@ -78,7 +75,7 @@ Proyek ini dikerjakan oleh tim yang terdiri dari:
    
 8. Jalankan aplikasi:
    ```bash
-    npm start  
+    javac GameServer.java   
     
 ## 🌐 Link Demo
 Berikut ini video demo game yang telah kami buat melalui tautan berikut:

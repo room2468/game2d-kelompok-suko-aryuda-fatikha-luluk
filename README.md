@@ -23,7 +23,9 @@ Proyek ini dikerjakan oleh tim yang terdiri dari:
 3. **Fatikha Hudi Aryani** - 2231740029
 4. **Luluk Musyarrofah** - 2231740038
 
-### Pembagian Tugas  
+---
+
+## Pembagian Tugas  
 - **Suko Dwi Atmojo**:  
   - Merancang dan mengimplementasikan logika client-side untuk menghubungkan client ke server, mengirim posisi pemain, dan menerima leaderboard.  
   - Merancang jendela permainan dengan panel game di dalamnya.  
@@ -100,30 +102,50 @@ Game ini dikembangkan menggunakan:
 
 1. Pastikan semua perangkat berada dalam satu jaringan LAN.
 2. **Kompilasi semua file Java**:
+   
    ```bash
    javac auth/*.java client/*.java server/*.java
-3. Pada sisi **server**:
+   
+4. Pada sisi **server**:
    - Jalankan program GameServer.java yang terdapat pada folder server maka secara otomatis akan menampilkan waiting room sebagai server-side.
+     
      ![Screenshot_20250626_203138_Gallery 1](https://github.com/user-attachments/assets/ea3af79e-3bb7-43c9-b18a-612e59d027ef)
+     
    - Tunggu hingga semua pemain terhubung (minimal 3 pemain).
+     
      ![Screenshot_20250626_203827_Gallery 1](https://github.com/user-attachments/assets/be3e4465-7cb4-4507-86ce-9b1cc57fcf49)
+     
    - Apabila semua pemain sudah terhubung, tekan button **Mulai Permainan**.
+     
 5. Pada sisi **client**:
    - Jalankan program GameClient.java atau GameWindow.java  (pilih salah satu) yang terdapat pada folder client.
    - Pilih mode **client**, lalu klik button **OK**.
+     
      ![Screenshot_20250626_204010_Gallery 1](https://github.com/user-attachments/assets/b09e65ab-5370-4cb1-8b15-16288781ef9d)
+     
    - Masukkan IP Server, dan nama pemain. Lalu klik button **Login**.
+     
      ![Screenshot_20250626_204045_Gallery 1](https://github.com/user-attachments/assets/8fd8c2f3-cb64-46a2-8699-a2567d758209)
-   - Apabila login berhasil, maka akan ditampilkan pesan **Login berhasil sebagai nama_pemain!**
+     
+   - Apabila login berhasil, maka akan ditampilkan pesan **Login berhasil sebagai nama_pemain!**.
+     
      ![Screenshot_20250626_204204_Gallery 1](https://github.com/user-attachments/assets/783d02fb-6471-4910-b8c3-a3c9fb5dc93e)
+   
    - Lalu klik button **OK** maka akan otomatis diarahkan ke halaman waiting room.
+     
      ![Screenshot_20250626_210433_Gallery 1](https://github.com/user-attachments/assets/be812a3d-6594-42e7-9c05-b1900cefe380)
+     
    - Tunggu di halaman waiting room hingga server memulai permainan.
 7. Setelah server menekan button **Mulai Permainan**, maka semua pemain akan diarahkan pada GUI permainan.
+   
    ![Screenshot_20250626_204341_Gallery 1](https://github.com/user-attachments/assets/ef7f3ba1-d533-49e8-a23b-8e1e68dcce93)
+   
 9. Setelah waktu habis, maka secara otomatis akan muncul pesan bahwa waktu telah habis.
+    
    ![Screenshot_20250626_210337_Gallery 2](https://github.com/user-attachments/assets/74448803-b88a-4ddc-b370-6516ad017538)
+   
 11. Klik button **OK**, lalu leaderboard ditampilkan berdasarkan perolehan skor pemain.
+    
     ![Screenshot_20250626_204401_Gallery 1](https://github.com/user-attachments/assets/34105c08-33d7-4ee0-b41c-03b94c0a2fff)
    
 ---

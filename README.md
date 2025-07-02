@@ -152,6 +152,6 @@ Game ini dikembangkan menggunakan:
 
 ## 🌐 Link Demo
 Berikut ini video demo game yang telah kami buat melalui tautan berikut:
-[Demo Select Item Game] (https://youtu.be/wkVafIYOTE8?si=BYXuiSaXMeaSsqYQ)
+[Demo Select Item Game](https://youtu.be/wkVafIYOTE8?si=BYXuiSaXMeaSsqYQ)
 
 Catatan: Pastikan jaringan Anda mendukung koneksi ke server.
